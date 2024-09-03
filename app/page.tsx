@@ -18,7 +18,7 @@ const posts=[
   }
 ]
 export  default async function Home() {
-  const res = await fetch(`http://localhost:1337/posts/posts`);
+  const res = await fetch(`https://my-strapi-project-ibk1.vercel.app/posts`);
     console.log('response',res);
     const posts = await res.json();
     console.log('podsfdsfdsdfdsfdsts======',posts);
