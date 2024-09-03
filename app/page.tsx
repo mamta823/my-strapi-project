@@ -17,14 +17,15 @@ const posts=[
   }
 ]
 export default async function Home() {
-  const res = await fetch("https://my-strapi-project-ibk1.vercel.app/posts");
+/*   const res = await fetch("https://my-strapi-project-ibk1.vercel.app/posts");
   console.log('response', res);
   const posts = await res.json();
   console.log('posts', posts);
-
+ */
   return (
     <div>
-      {
+      test
+      {/* {
         posts?.data ?
           posts?.data?.map((post: any) => (
             <article key={post.id}>
@@ -34,7 +35,7 @@ export default async function Home() {
           ))
           :
           "No data found"
-      }
+      } */}
     </div>
   );
 }
