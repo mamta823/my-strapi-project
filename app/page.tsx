@@ -21,7 +21,7 @@ export  default async function Home() {
   const res = await fetch(`${process.env.NEXT_PUBLIC_STRAPI_API_URL}/posts`);
     console.log('response',res);
     const posts = await res.json();
-    console.log('posdfdsfdsts======',posts);
+    console.log('podsfdsfdsdfdsfdsts======',posts);
 
   return (
     <div>
